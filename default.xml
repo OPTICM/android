@@ -9,6 +9,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote name="ln"
+           fetch="git://android.git.linaro.org/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
