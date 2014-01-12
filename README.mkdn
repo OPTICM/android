@@ -8,7 +8,7 @@ This Blue Lightning Manifest should build anything that is officially supported 
 
 To initialize your local repository use
 
-    repo init -u git://github.com/Cl3Kener/BlueLighting.git -b cm-11.0
+    repo init -u git://github.com/Cl3Kener/BlueLightning.git -b cm-11.0
 
 Then to sync up:
 
