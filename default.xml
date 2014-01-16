@@ -475,9 +475,6 @@
 
   <!--My Linaro Toolchains-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/cortex-a9" name="Cl3Kener/LINARO-OTTER" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/krait" name="Cl3Kener/LINARO-HAMMER" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/scorpion" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
 
   <!--SaberMod Toolchain-->
   <project path="prebuilts/gcc/linux-x86/arm/SM" name="Hellybean/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
