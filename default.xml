@@ -477,6 +477,11 @@
   <!--My Linaro Toolchains-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
 
+  <!--My build scripts-->
+  <project path="hkscripts" name="Hellybean/hkscripts" remote="github" >
+    <copyfile dest="blbuild.sh" src="blbuild.sh"/>
+  </project>
+
   <!--SaberMod Toolchain-->
   <project path="prebuilts/gcc/linux-x86/arm/SM" name="Hellybean/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
 
