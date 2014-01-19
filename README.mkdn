@@ -14,3 +14,13 @@ Then to sync up:
 
     repo sync
 
+```    
+
+To Compile
+------------------
+
+```
+./blbuild.sh <device>
+```
+=======
+
