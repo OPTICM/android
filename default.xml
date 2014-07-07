@@ -481,6 +481,7 @@
 
   <!--My Toolchains-->
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="UBERUTILS/LINARO" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
 
   <!--My build scripts-->
   <project path="hkscripts" name="Hellybean/hkscripts" remote="github" >
