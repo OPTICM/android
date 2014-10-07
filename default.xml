@@ -34,7 +34,7 @@
   <project path="android" name="Cl3Kener/BlueLightning" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="LiquidSmooth/android_art" revision="kitkat" />
-  <project path="bionic" name="CyanogenMod/android_bionic" revision="kitkat" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="LiquidSmooth/android_dalvik" revision="kitkat" />
