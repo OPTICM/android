@@ -37,6 +37,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
@@ -197,6 +198,7 @@
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/llvm" name="liquid0624/android_external_llvm" />
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
@@ -315,6 +317,7 @@
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
   <project path="frameworks/webview" name="LiquidSmooth/android_frameworks_webview" revision="kitkat" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="LiquidSmooth/android_hardware_broadcom_libbt" groups="pdk" revision="kitkat" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
