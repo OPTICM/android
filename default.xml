@@ -33,12 +33,12 @@
 
   <project path="android" name="Cl3Kener/BlueLightning" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="art" name="LiquidSmooth/android_art" revision="kitkat" />
+  <project path="bionic" name="LiquidSmooth/android_bionic" revision="kitkat" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
+  <project path="dalvik" name="LiquidSmooth/android_dalvik" revision="kitkat" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
@@ -237,7 +237,7 @@
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" />
-  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" />
+  <project path="external/qrngd" name="liquid0624/android_external_qrngd" />
   <project path="external/regex-re2" name="CyanogenMod/android_external_regex-re2" />
   <project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -285,7 +285,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/av" name="LiquidSmooth/android_frameworks_av" revision="kitkat" />
   <project path="frameworks/base" name="Cl3Kener/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -322,17 +322,17 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="LiquidSmooth/android_hardware_libhardware" groups="pdk" revision="kitkat" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio" name="LiquidSmooth/android_hardware_qcom_audio" groups="qcom" revision="kitkat" />
+  <project path="hardware/qcom/audio" name="liquid0624/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LiquidSmooth/android_hardware_qcom_audio-caf" groups="caf" revision="kitkat" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="liquid0624/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="liquid0624/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="LiquidSmooth/android_hardware_qcom_display-caf" groups="caf" revision="kitkat" />
-  <project path="hardware/qcom/gps" name="LiquidSmooth/android_hardware_qcom_gps" groups="qcom" revision="kitkat" />
+  <project path="hardware/qcom/gps" name="liquid0624/android_hardware_qcom_gps" groups="qcom"/>
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="LiquidSmooth/android_hardware_qcom_media" groups="qcom" revision="kitkat" />
+  <project path="hardware/qcom/media" name="liquid0624/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="LiquidSmooth/android_hardware_qcom_media-caf" groups="caf" revision="kitkat" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
@@ -424,7 +424,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="Hellybean/android_system_core" />
+  <project path="system/core" name="liquid0624/android_system_core" />
   <project path="system/extras" name="LiquidSmooth/android_system_extras" revision="kitkat" />
   <project path="system/media" name="LiquidSmooth/android_system_media" groups="pdk" revision="kitkat" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
